@@ -1,5 +1,13 @@
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
+## How to use this?
+  1. make your presentation in markdown replacing this file
+  2. open index.html in the browser to see the presentation (it updates automatically)
+
+If you want to edit the source files, you'll find them in `.reveal`
+
+---
+
 # REVEAL.JS TEMPLATE
 <!-- .element: class="no-toc-progress" --> <!-- slide not in toc progress bar -->
 
