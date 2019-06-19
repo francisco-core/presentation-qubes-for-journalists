@@ -7,17 +7,16 @@
         <title>reveal.js template</title>
 
         <link rel="stylesheet" href="./reveal.js/css/reveal.css">
-        <link rel="stylesheet" href="./reveal.js/css/theme/solarized.css" id="theme">
-
-        <link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css">
+        <link rel="stylesheet" href="./reveal.js/css/theme/blood.css" id="theme">
+        <link rel="stylesheet" href="./css/custom.css">
     </head>
 
     <body>
         <div class="reveal">
             <div class="slides">
                 <section data-markdown="slides.md"
-                         data-separator="^\n----  ----\n$"
-                         data-separator-vertical="^\n----\n$">
+                         data-separator="^\n--- ---\n$"
+                         data-separator-vertical="^\n---\n$">
                 </section>
             </div>
         </div>
@@ -27,12 +26,12 @@
         <script>
 Reveal.initialize({
     // reveal.js configuration, cf. https://github.com/hakimel/reveal.js/#configuration
-    controls: true,
-    progress: true,
+    controls: false,
+    progress: false,
     history: true,
     center: true,
-    transition: 'convex',
-    slideNumber: 'c/t',
+    transition: 'slide',
+    //slideNumber: 'c/t',
     width: 960,
     height: 800,
 

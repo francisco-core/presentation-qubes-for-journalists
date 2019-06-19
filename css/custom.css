@@ -1,0 +1,134 @@
+/* .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal p { */
+/*     color: #333; */
+/* } */
+
+body {
+    background: #fff;
+    background-color: #fff;
+}
+
+.reveal {
+    color: #222;
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6,
+.reveal p {
+    color: #333;
+    text-shadow: none;
+}
+
+.reveal h1 {
+    font-size: 2.0em !important;
+}
+
+.reveal pre {
+    box-shadow: none;
+}
+
+.white-font h1,
+.white-font h2,
+.white-font p,
+.white-font a {
+    color: #fff;
+    text-shadow: 0 0 20px #000000;
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: #d02b1e;
+}
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: #d02b1e;
+}
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: #d02b1e;
+}
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: #d02b1e;
+}
+.reveal .controls div.navigate-right.enabled {
+  border-left-color: #5d6063;
+}
+.reveal .controls div.navigate-left.enabled {
+  border-right-color: #5d6063;
+}
+.reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #5d6063;
+}
+.reveal .controls div.navigate-down.enabled {
+  border-top-color: #5d6063;
+}
+
+.reveal .logo {
+    background: url("../../img/logo.png") no-repeat;
+    background-size: 90px;
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    width: 90px;
+    height: 90px;
+    z-index: 1000;
+}
+
+.white-font strong {
+    font-weight: normal;
+    color: #2a76dd;
+}
+
+.white-background {
+    background: #fff;
+}
+
+html.opaque-background .slide-background {
+    opacity: 0.5 !important;
+}
+
+.reveal .caption {
+    color: #333;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+}
+
+.reveal .caption a {
+    color: #333;
+}
+
+.reveal a {
+    color: #17a2b8;
+}
+
+.reveal ul {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    // font-size: 26px;
+    // line-height: 40px;
+}
+
+.reveal p code {
+    background: none;
+    border: 1px solid #333;
+    padding: 0px 6px;
+}
+
+.reveal .small {
+    font-size: .5em;
+}
+
+.reveal .large {
+    font-size: 3em;
+}

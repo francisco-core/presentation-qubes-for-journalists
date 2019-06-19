@@ -3,7 +3,7 @@
 # REVEAL.JS TEMPLATE
 <!-- .element: class="no-toc-progress" --> <!-- slide not in toc progress bar -->
 
-## [reveal.js][3] presentation written in [markdown][4] set up with [fabric][5] & [fabsetup][6]
+### [reveal.js][3] presentation written in [markdown][4] set up with [fabric][5] & [fabsetup][6]
 
 created by [theno](https://github.com/theno) | 2017-01-05 | [online][1] | [src][2]
 
@@ -17,11 +17,14 @@ created by [theno](https://github.com/theno) | 2017-01-05 | [online][1] | [src][
 [6]: https://github.com/theno/fabsetup
 
 
-----  ----
+---
 
-# 1. reveal.js
+## Basic Idea
 
-----
+The browser and the web server; what was the web by the way? HTTP,
+HTML, URLs; IP packets
+
+--- ---
 
 ## reveal.js
 
@@ -38,7 +41,7 @@ created by [theno](https://github.com/theno) | 2017-01-05 | [online][1] | [src][
   * <!-- .element: class="fragment" --> Don't bother with HTML syntax
   * <!-- .element: class="fragment" --> Write slides in a markdown file
 
-----
+---
 
 ## reveal.js supports Markdown
 
@@ -58,7 +61,7 @@ Writing slides in Markdown is easy:
   * Write slides in a markdown file
 ```
 
-----
+---
 
 ## reveal.js: Showroom
 
@@ -72,11 +75,11 @@ Some reveal.js presentations:
 More demos: https://github.com/hakimel/reveal.js/wiki/Example-Presentations
 
 
-----  ----
+---  ---
 
 # 2. fabric and fabsetup
 
-----
+---
 
 # fabric
 
@@ -90,7 +93,7 @@ More demos: https://github.com/hakimel/reveal.js/wiki/Example-Presentations
 
 __`>>shell-deploy-scripts on steroids!<<`__
 
-----
+---
 
 ## fab and fabfile.py
 
@@ -98,7 +101,7 @@ __`>>shell-deploy-scripts on steroids!<<`__
   * Bash commands _"written"_ in Python (2.5 - 2.7)
 * Command __`fab`__ executes a task
 
-----
+---
 
 example __`fabfile.py`__:
 
@@ -134,7 +137,7 @@ IPs of mobi12.uni.cx:
   Done.  Disconnecting from example_host... done.
 ```
 
-----
+---
 
 # fabsetup
 
@@ -154,12 +157,11 @@ Collection of __fabric tasks__:
 [8]: https://github.com/theno/fabsetup/blob/master/howtos/f-droid-repo.md
 [9]: https://github.com/theno/fabsetup/blob/master/howtos/no-sudo.md
 
-
-----  ----
+--- ---
 
 # 3. fab setup.revealjs
 
-----
+---
 
 ## A reveal.js Template
 
@@ -169,7 +171,7 @@ boilerplate for getting started on a nice reveal.js presentation:
 * __`index.html`__ prepared accordingly
 * All slides are defined in __`slides.md`__
 
-----
+---
 
 ## Set It Up
 
@@ -186,7 +188,7 @@ cd ~/repos/fabsetup
 fab setup.revealjs  -H localhost
 ```
 
-----
+---
 
 ## fab setup.revealjs
 
@@ -196,7 +198,7 @@ fab setup.revealjs  -H localhost
  * Sub-title
  * Short description
 
-----
+---
 
 ## fab setup.revealjs
 
@@ -207,11 +209,11 @@ fab setup.revealjs  -H localhost
 *When running again (also optional):*
  * Re-install reveal.js codebase
 
-----
+---
 
 [howto](https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md)
 
-----
+---
 
 ## Boilerplate File Structure
 
@@ -239,11 +241,11 @@ fab setup.revealjs  -H localhost
     └── index.html -> ../index.html  /
 ```
 
-----
+---
 
 *template features*
 
-----
+---
 
 ## Plugins Built-In
 
@@ -259,7 +261,7 @@ All the built-in plugins are enabled in the __`index.html`__:
 [13]: https://github.com/hakimel/reveal.js/#speaker-notes
 [14]: https://github.com/hakimel/reveal.js/#mathjax
 
-----
+---
 
 ## Additional Plugins
 
@@ -272,14 +274,14 @@ This additional plugins will be installed and set up, too:
 [16]: https://github.com/e-gor/Reveal.js-TOC-Progress
 [17]: https://github.com/e-gor/Reveal.js-Title-Footer
 
-----
+---
 
 ## Customizations in reveal.js
 
 * Don't Capitalize Titles (NO FULL UPPERCASE HEADINGS)
 * Images are displayed without border
 
-----
+---
 
 ## Special Markdown Slide dividers
 
@@ -294,7 +296,7 @@ This additional plugins will be installed and set up, too:
 [18]: https://raw.githubusercontent.com/theno/revealjs_template/master/slides.md
 [19]: https://github.com/theno/revealjs_template/blob/master/slides.md
 
-----
+---
 
 ## Create PDF
 
@@ -320,7 +322,7 @@ URL can be of:
 * localhost:8000
 * github.io page
 
-----
+---
 
 ## Shortcut
 
@@ -338,12 +340,12 @@ Then:
   ```
 
 
-----  ----
+---  ---
 
 # 4. Publishing at github.io
 
 
-----
+---
 
 ## Publishing as github page
 
@@ -361,11 +363,11 @@ A github repo (with `index.html`) can be rendered into a github.io page
 [2_]: https://github.com/theno/revealjs_template
 
 
-----  ----
+--- ---
 
 # 5. Conclusion and Outlook
 
-----
+---
 
 ## Conclusion
 
@@ -374,7 +376,7 @@ A github repo (with `index.html`) can be rendered into a github.io page
 * __fabric__ is a framework for powerfull setup scripts
 * __fabsetup__ is a collection of fabric tasks
 
-----
+---
 
 __`fab setup.revealjs`__ (one of this tasks):
   Creates the boilerplate of your presentation:
@@ -386,7 +388,7 @@ __`fab setup.revealjs`__ (one of this tasks):
 
 __`>>just edit the slides.md<<`__  <!-- .element: class="fragment" -->
 
-----
+---
 
 ## Outlook
 
@@ -408,7 +410,7 @@ PDF output and ability to treat notes as first-class content."*
 [22]: https://github.com/byteclubfr/prez
 [23]: https://github.com/theno/fabsetup/blob/master/howtos/fabsetup_custom.md
 
-----
+---
 
 ## References
 
@@ -431,7 +433,7 @@ PDF output and ability to treat notes as first-class content."*
   * revealjs [howto](https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md)
 
 
-----  ----
+--- ---
 
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
