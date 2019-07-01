@@ -8,6 +8,8 @@ mesmo quando fomos hackeados
 
 ---
 
+<!-- .slide: data-background-image="images/opened-boxes-header.png" -->
+
 # Aviso ⚠️
 
 1. O conhecimento que aqui passamos não subsitui treino por profissionais
@@ -121,6 +123,20 @@ como solução
 - mais segura
 
 ---
+
+# Recomendado
+<br>
+
+<img src="images/snowden.jpg" height="200px" width="200px" style="float:left;"/>
+
+"If you're serious about security, Qubes OS is the best
+OS available today. It's what I use, and free."
+ 
+<cite>Edward Snowden </cite>
+
+
+---
+
 
 # Único em termos de segurança
 
