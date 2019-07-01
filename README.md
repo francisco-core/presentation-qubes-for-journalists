@@ -20,4 +20,4 @@ A apresentação tem como público alvo joranlistas de investigação. E como ob
 
 
 
-Feito no contexto do grupo [privacyLx](privacylx.org).
+Feito no contexto do grupo [privacyLx](https://privacylx.org).
