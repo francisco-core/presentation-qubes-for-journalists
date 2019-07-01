@@ -1,10 +1,7 @@
-<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
+<!-- .slide: data-state="no-toc-progress" -->
+<!-- don't show toc progress bar on this slide -->
 
-![](images/invite-logo.png)
-
-O sistema operativo que nos protege
-
-mesmo quando fomos hackeados
+<img src="images/header.png" style="width: 150%">
 
 ---
 
@@ -134,9 +131,7 @@ OS available today. It's what I use, and free."
  
 <cite>Edward Snowden </cite>
 
-
 ---
-
 
 # Único em termos de segurança
 
@@ -169,7 +164,7 @@ organizado por
 # cores
 <span style="font-size: 800%">🗃</span>
 
-📕 inseguro  &nbsp; 📗 investigação  &nbsp; 📘 offline
+📕 inseguro  &nbsp; 📗 investigação  &nbsp; 📘 vault
 
 ---
 
@@ -185,7 +180,7 @@ Contem todos os documentos de uma investigação,emails, etc.
 
 ---
 
-# 📘 offline
+# 📘 vault
 
 Onde armazenamos palavras-passe e outras credenciais
 
@@ -194,6 +189,10 @@ Onde armazenamos palavras-passe e outras credenciais
 # Demo
 
 Vamos ver isto em ação
+
+note:
+mostrar aqui os vários tipos de máquinas em paralelo e chamar à atenção as cores.
+Mostrar também a funcionalidade de ter uma máquina offline com as credenciais
 
 --- ---
 
@@ -225,6 +224,8 @@ colar partilhado: `ctrl-shift-v`
 colar `ctrl-v`
 
 --- ---
+
+![](images/usb-icon.svg)
 
 # Proteção USB
 
@@ -258,7 +259,7 @@ mesmo que tenhamos sido hackeados
 
 # Como ?
 
-</br>
+---
 
 Sistema apenas guarda documentos
 <!-- .element: class="fragment" --> 
@@ -304,9 +305,20 @@ Também é possível correr programas do windows
 
 --- ---
 
+# 🔐 Disco Encriptado
+<br></br>
+
+Só é possível ler os conteúdos armazenados
+no computador com uma frase-chave
+
+
+
+--- ---
+
+
 # Navegação Anónima
 
-Com a ajuda da rede <img style="width:10%" src="images/tor-logo.png"/>
+Com a ajuda da rede **Tor**
 
 <img src="images/internet.png"/>
 
@@ -340,18 +352,47 @@ Para não revelar o que se está a investigar
 
 ---
 
+# Objetivo
+Proteger fontes jornalísticas na era de vigilância de massas
+
+Através de anonimato
+
+---
+
+![](images/securedrop-submit.png)
+
+---
+
+Outro objetivo é também garantir a
+# segurança dos Jornalistas
+
+note:
+os ficheiros podem ser maliciosos
+
+---
+
 <!-- .slide: data-background-image="images/securedrop-hexagons-background.png" -->
-<!-- .h1: color="red" -->
 
+<span style="color: white" >Securedrop</span>
+# <span style="color: white" >Workstation</span>
 
-<img src="images/securedrop-workstation.png" style="width:60%"/>
+<!-- announcement https://securedrop.org/news/road-towards-integrated-securedrop-workstation/ -->
 
-# Securedrop Workstation
+---
 
+<!-- .slide: data-background-image="images/securedrop-hexagons-background.png" -->
+
+<img src="images/securedrop-workstation2.png"/>
+
+<span style="color: white" > Em desenvolvimento desde Julho 2017 </span>
 
 --- ---
 
 # Notas Finais
+
+---
+
+<img style="width: 50%" src="images/qubes-logo-original612.png"/>
 
 ---
 
@@ -361,11 +402,11 @@ Para não revelar o que se está a investigar
 
 <!-- .slide: data-background-image="images/opened-boxes-header.png" -->
 
-Nem tudo
+nem tudo
 #  são rosas
 <br>
 
-- requer formção <!-- .element: class="fragment" --> 
+- requer formação <!-- .element: class="fragment" --> 
 - segurança cria obstáculos à utilização <!-- .element: class="fragment" --> 
 - requer computador moderno e potente <!-- .element: class="fragment" --> 
 - bateria dura pouco  <!-- .element: class="fragment" --> 
@@ -374,7 +415,7 @@ Nem tudo
 
 É preciso
 # medir os riscos
-<br>
+</br>
 
 - proteção de fontes <!-- .element: class="fragment" --> 
 - manipulação segura de ficheiros <!-- .element: class="fragment" --> 
