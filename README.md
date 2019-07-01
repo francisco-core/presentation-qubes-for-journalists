@@ -5,7 +5,7 @@
 
 ----
 
-![First Slide](images/first-slide.png)
+![First Slide](images/header.png)
 
 The [**slides.md**](./slides.md) MarkDown is written for reveal.js, a tool that displays presentations as a webpage, To view the presentation open the file `index.html` in the web browser.
 
