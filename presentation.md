@@ -3,6 +3,10 @@
 
 <img src="images/header.png" style="width: 150%">
 
+note:
+- agradecer a presença
+- vamos apresentar um sistema operativo
+
 ---
 
 <!-- .slide: data-background-image="images/opened-boxes-header.png" -->
@@ -13,7 +17,9 @@
 
 2. É importante ter a noção que nada é 100% seguro
 
-<!-- o objetivo é apenas dar a conhecer o que existe -->
+note:
+o objetivo é apenas dar a conhecer o que existe
+o conhecimento que aqui passamos não é suficiente para o uso em segurança
 
 ---
 
@@ -24,21 +30,30 @@ Quando quiserem
 
 # Contexto
 
-<!-- esta secção introduz o contexto da apresentação: segurança
-jornal -->
-
 ![](images/bansky-grafitti.jpg)
+
+note:
+Em que contexto se insere esta apresentação?
+
+Na era digital, a segurança dos jornalistas torna-se bastante diferente
 
 ---
 
 # No passado
-Jornalistas podiam proteger as suas fontes simplesmente não revelando as suas fontes quando interrogados.
+
+Jornalistas podiam proteger as suas fontes simplesmente não as revelando quando interrogados.
 
 ---
 
 # Já não se aplica
 
-Tudo deixa um rasto digital
+Tudo deixa um rasto digital!
+
+note:
+alguns exemplos são:
+* chamadas telefónicas
+* documentos apagados
+* emails
 
 ---
 
@@ -52,6 +67,14 @@ Tudo deixa um rasto digital
 - ubíqua
 
 --- ---
+
+# Segurança
+em Jornalismo
+
+note:
+segurança é algo contextual. Depende sempre do que se está a investigar e de quem poderá estar interessado em evitar essa publicação
+
+---
 
 # OPSEC
 
@@ -77,28 +100,11 @@ O que queremos proteger
 - comunicações sensíveis
 <!-- .element: class="fragment" -->
 - contas online
-<!-- .element: class="fragment" -->
+<!-- .element: class="fragment" --
+>
+--- ---
 
----
-
-# Portas de Entrada
-
-- navegar na net
-<!-- .element: class="fragment" --> 
-- abrir documentos desconhecidos
-<!-- .element: class="fragment" --> 
-- phishing 
-<!-- .element: class="fragment" --> 
-- roubo físico 
-<!-- .element: class="fragment" --> 
-- sistema operativo
-<!-- .element: class="fragment" --> 
-
-<!-- no caso do sistema operativo estamos a referirnos a malware que ja vem pré instalado no sistema como por exemplo o keylogger da microsoft https://www.privateinternetaccess.com/blog/2017/03/microsoft-windows-10-keylogger-enabled-default-heres-disable/ -->
-
----
-
-# O Problema
+# O problema
 
 ---
 
@@ -119,6 +125,56 @@ O que queremos proteger
 documentos, emails, fotografias, etc.
 <!-- .element: class="fragment" --> 
 
+---
+
+Quais os 
+# Riscos que corremos?
+
+---
+
+# phishing
+Emails mailiciosos
+
+![](images/phishing-email.jpg)
+<!-- image source: https://www.googlewatchblog.de/2017/01/angriff-gmail-nutzer-neue/ -->
+
+note:
+Phishing é de longe o meio mais comum de ataque. Consiste no envio de emails mailiosos na esperaça que o destinatário
+clique num link ou que abra um ficheiro em anexo. Independentemente da quantidade de treino que uma organização faça,
+há sempre pelo menos 25% das pessoas que caem na armadilha.
+
+---
+
+# Ficheiros desconhecidos
+
+<span style="font-size: 600%">📄</span>
+<span style="font-size: 300%">👾</span>
+
+---
+
+# Navegar na net
+
+note:
+Certos sites, por vezes até de fontes fidedignas, podem estar infetadas com conteúdo malicioso e que,
+sem que o utilizador suspeite, instalam malware no computador. Isso permite aos atacantes essencialmente
+fazer o que quiserem com ele: vasculhar documentos, ligar a webcam e tirar fotografias, etc.
+
+---
+
+
+# Portas de Entrada
+
+- navegar na net
+<!-- .element: class="fragment" --> 
+- abrir documentos desconhecidos
+<!-- .element: class="fragment" --> 
+- phishing 
+<!-- .element: class="fragment" --> 
+- roubo físico 
+<!-- .element: class="fragment" --> 
+- sistema operativo
+<!-- .element: class="fragment" --> 
+
 --- ---
 
 <img src="images/qubes-logo.svg"></img>
@@ -127,11 +183,16 @@ como solução
 
 ---
 
-É uma alternativa ao Windows
+alternativa ao
+# Windows
 
-- gratuita
-- software livre
-- mais segura
+---
+
+# software livre
+
+---
+
+- mais segura <!-- .element: class="fragment" --> 
 
 ---
 
@@ -370,10 +431,6 @@ Para não revelar o que se está a investigar
 
 --- ---
 
-# Caso de Uso
-
---- ---
-
 <!-- SECURE DROP -->
 <!-- .slide: data-background-image="images/securedrop-hexagons-background.png" -->
 
@@ -463,5 +520,7 @@ muito
 --- ---
 
 # mais recursos
+
+* [Qubes Website](https://qubes-os.org)
 
 ---
