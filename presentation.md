@@ -283,21 +283,6 @@ está isolada das outras
 
 <img src="images/copy-to-app-vm.png" style="width: 60%" />
 
----
-
-# 📋 Clipboard
-
-
-copiar `ctrl-c`
-
-copiar partilhado: `ctrl-shift-c`
-<!-- .element: class="fragment" --> 
-
-colar partilhado: `ctrl-shift-v`
-<!-- .element: class="fragment" --> 
-
-colar `ctrl-v`
-
 --- ---
 
 ![](images/usb-icon.svg)
@@ -524,4 +509,25 @@ muito
 
 * [Qubes Website](https://qubes-os.org)
 
+--- ---
+
+--- ---
+
+# Unused Slides
+
+
 ---
+
+# 📋 Clipboard
+
+
+copiar `ctrl-c`
+
+copiar partilhado: `ctrl-shift-c`
+<!-- .element: class="fragment" --> 
+
+colar partilhado: `ctrl-shift-v`
+<!-- .element: class="fragment" --> 
+
+colar `ctrl-v`
+
