@@ -69,7 +69,7 @@ alguns exemplos são:
 --- ---
 
 # Segurança
-em Jornalismo
+informática
 
 note:
 segurança é algo contextual. Depende sempre do que se está a investigar e de quem poderá estar interessado em evitar essa publicação
@@ -100,8 +100,8 @@ O que queremos proteger
 - comunicações sensíveis
 <!-- .element: class="fragment" -->
 - contas online
-<!-- .element: class="fragment" --
->
+<!-- .element: class="fragment" -->
+
 --- ---
 
 # O problema
@@ -484,15 +484,15 @@ nem tudo
 <br>
 
 - requer formação <!-- .element: class="fragment" --> 
-- segurança cria obstáculos à utilização <!-- .element: class="fragment" --> 
-- requer computador moderno e potente <!-- .element: class="fragment" --> 
+<!--- segurança cria obstáculos à utilização <!-- .element: class="fragment" -->
+- computador moderno e potente <!-- .element: class="fragment" --> 
 - bateria dura pouco  <!-- .element: class="fragment" --> 
 
 ---
 
 É preciso
 # medir os riscos
-</br>
+<br></br>
 
 - proteção de fontes <!-- .element: class="fragment" --> 
 - manipulação segura de ficheiros <!-- .element: class="fragment" --> 
