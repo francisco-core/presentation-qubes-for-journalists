@@ -1,7 +1,9 @@
 <!-- .slide: data-state="no-toc-progress" -->
 <!-- don't show toc progress bar on this slide -->
 
-<img src="images/header.png" style="width: 150%">
+<img src="images/invite-logo-generic.png" style="width: 150%">
+
+Uma leve introdução
 
 note:
 - agradecer a presença
@@ -25,6 +27,28 @@ o conhecimento que aqui passamos não é suficiente para o uso em segurança
 
 # ✋ perguntas
 Quando quiserem
+
+--- ---
+
+# Quem Somos?
+
+---
+
+![](images/PrivacyLxLogo.png)
+
+**Associação** sem fins lucrativos
+<!-- .element: class="fragment" -->
+
+<br></br>
+Defender a **privacidade** e **segurança**<br/>
+no mundo digital
+<!-- .element: class="fragment" -->
+
+---
+
+# privacylx.org
+
+![](images/privacylx.org.png)
 
 --- ---
 
@@ -69,7 +93,7 @@ alguns exemplos são:
 --- ---
 
 # Segurança
-informática
+Informática
 
 note:
 segurança é algo contextual. Depende sempre do que se está a investigar e de quem poderá estar interessado em evitar essa publicação
@@ -85,22 +109,6 @@ Segurança Operacional
 # Assets
 
 O que queremos proteger
-
----
-
-- **Fontes Jornalísticas**
-<!-- .element: class="fragment" -->
-- documentos de investigações atuais
-<!-- .element: class="fragment" -->
-- e passadas
-<!-- .element: class="fragment" -->
-
-<br></br>
-
-- comunicações sensíveis
-<!-- .element: class="fragment" -->
-- contas online
-<!-- .element: class="fragment" -->
 
 --- ---
 
@@ -120,10 +128,13 @@ O que queremos proteger
 
 ---
 
-#### Fazemos tudo no mesmo sistema <!-- .element: class="fragment" --> 
+<img src="images/all-eggs-in-one-basket.png" ></img>
+
+#### Fazemos tudo no mesmo sistema
 
 documentos, emails, fotografias, etc.
 <!-- .element: class="fragment" --> 
+
 
 ---
 
@@ -153,6 +164,7 @@ há sempre pelo menos 25% das pessoas que caem na armadilha.
 ---
 
 # Navegar na net
+<span style="font-size: 600%">🌐</span>
 
 note:
 Certos sites, por vezes até de fontes fidedignas, podem estar infetadas com conteúdo malicioso e que,
@@ -161,19 +173,19 @@ fazer o que quiserem com ele: vasculhar documentos, ligar a webcam e tirar fotog
 
 ---
 
+# Roubo Físico
 
-# Portas de Entrada
+<span style="font-size: 600%">🔫</span>
 
-- navegar na net
-<!-- .element: class="fragment" --> 
-- abrir documentos desconhecidos
-<!-- .element: class="fragment" --> 
-- phishing 
-<!-- .element: class="fragment" --> 
-- roubo físico 
-<!-- .element: class="fragment" --> 
-- sistema operativo
-<!-- .element: class="fragment" --> 
+---
+
+# Sistema Operativo
+
+Windows, por exemplo partilha muitos dados
+
+<img src="images/windows-logo.png" style="width: 30%"/></img>
+<span style="font-size: 300%">👾</span>
+
 
 --- ---
 
@@ -239,23 +251,23 @@ organizado por
 # cores
 <span style="font-size: 800%">🗃</span>
 
-📕 inseguro  &nbsp; 📗 investigação  &nbsp; 📘 vault
+📕 unsafe  &nbsp; 📘 work  &nbsp; 📙 safe
 
 ---
 
-# 📕 inseguro
+# 📕 unsafe
 
 Para navegar na net por qualquer site
 
 ---
 
-# 📗 investigação
+# 📘 work
 
-Contem todos os documentos de uma investigação,emails, etc.
+Contem todos os documentos de no nosso trabalho, emails, etc.
 
 ---
 
-# 📘 vault
+# 📙 safe
 
 Onde armazenamos palavras-passe e outras credenciais
 
@@ -503,6 +515,14 @@ nem tudo
 muito
 # Obrigado
 
+---
+
+# Comunidade
+
+<img src="images/forum-screenshot.png" style="width: 80%"></img>
+
+cafe.privacylx.org
+
 --- ---
 
 # mais recursos
@@ -531,3 +551,18 @@ colar partilhado: `ctrl-shift-v`
 
 colar `ctrl-v`
 
+---
+
+- **Fontes Jornalísticas**
+<!-- .element: class="fragment" -->
+- documentos de investigações atuais
+<!-- .element: class="fragment" -->
+- e passadas
+<!-- .element: class="fragment" -->
+
+<br></br>
+
+- comunicações sensíveis
+<!-- .element: class="fragment" -->
+- contas online
+<!-- .element: class="fragment" -->
