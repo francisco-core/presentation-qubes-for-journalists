@@ -185,14 +185,15 @@ como solução
 
 alternativa ao
 # Windows
+<br></br>
+
+mas também corre programas do windows
+
+(mais à frente)
 
 ---
 
 # software livre
-
----
-
-- mais segura <!-- .element: class="fragment" --> 
 
 ---
 
