@@ -90,6 +90,17 @@ alguns exemplos são:
 - barata
 - ubíqua
 
+---
+
+<!-- .slide: data-background-iframe="https://theintercept.com/2019/08/04/whistleblowers-surveillance-fbi-trump/" -->
+
+Artigo de introdução ao tópico:
+https://theintercept.com/2019/08/04/whistleblowers-surveillance-fbi-trump/
+
+note:
+não haverá tempo para cobrir isto mas fica aqui à disposição da audiência
+
+
 --- ---
 
 # Segurança
