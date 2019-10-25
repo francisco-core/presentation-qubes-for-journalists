@@ -3,46 +3,47 @@
 
 <img src="images/invite-logo-generic.png" style="width: 150%">
 
-Uma leve introdução
+a short introduction
 
 note:
-- agradecer a presença
-- vamos apresentar um sistema operativo
+- thank the audience
+- we'll present an operating system that can replace windows and has
+  intersting security advantages
 
 ---
 
 <!-- .slide: data-background-image="images/opened-boxes-header.png" -->
 
-# Aviso ⚠️
+# Warning ⚠️
 
-1. O conhecimento que aqui passamos não subsitui treino por profissionais
+1. What we teach you here does not replace training by professionals
 
-2. É importante ter a noção que nada é 100% seguro
+2. One can never be completely safe, only strive to improve security
 
 note:
-o objetivo é apenas dar a conhecer o que existe
-o conhecimento que aqui passamos não é suficiente para o uso em segurança
+- the objective is just to make people aware of what QubesOS is
+- more training is required if you wish to make the transition
 
 ---
 
-# ✋ perguntas
-Quando quiserem
+# ✋ questions
+Whenever you have one
 
 --- ---
 
-# Quem Somos?
+# Who we are?
 
 ---
 
 ![](images/PrivacyLxLogo.png)
 
-**Associação** sem fins lucrativos
+A non-profit association based in Lisbon
 <!-- .element: class="fragment" -->
 
 <br></br>
-Defender a **privacidade** e **segurança**<br/>
-no mundo digital
-<!-- .element: class="fragment" -->
+
+Objective: *to help peole defend their **privacy** and **security** in the digital world.*
+<!-- .element: class="fragment"-->
 
 ---
 
@@ -52,78 +53,105 @@ no mundo digital
 
 --- ---
 
-# Contexto
+# Context
 
 ![](images/bansky-grafitti.jpg)
 
 note:
-Em que contexto se insere esta apresentação?
 
-Na era digital, a segurança dos jornalistas torna-se bastante diferente
-
----
-
-# No passado
-
-Jornalistas podiam proteger as suas fontes simplesmente não as revelando quando interrogados.
+What is the current context of surveillance. With the ubiquity of
+surveillance technologies there has to be a paradigm shift in terms of
+journalistic security from the physical world of source protection
+into the digital realm
 
 ---
 
-# Já não se aplica
+# In the past
 
-Tudo deixa um rasto digital!
+Journalists could protect their sources by simply not revealing who
+they were when interrogated.
+
+---
+
+# No longer applies
+
+Everything digital leaves a trace!
 
 note:
-alguns exemplos são:
-* chamadas telefónicas
-* documentos apagados
-* emails
+
+examples include:
+  - phone calls
+  - deleted documents
+  - emails
+  - etc.
 
 ---
+
+# Modern surveillance
+<br></br>
 
 <img src="images/journalism-after-snowden-book.jpg" style="float: left"></img>
 
-# Vigilância Moderna
-<br></br>
+- mass scale
+- cheap
+- ubiquitous
 
-- massificada
-- barata
-- ubíqua
+---
+
+"Every journalist should understand that there is no such thing as
+confidential digital communication.
+
+**None of us have confidential sources.**"
+
+<br>
+
+--  [Alan Rusbridger, The Guardian editor](https://www.pressgazette.co.uk/rusbridger-how-no-journalists-sources-are-now-safe-joining-ipso-and-why-he-would-have-kept-news/)
+
+---
+
+### Can journalism without source protection
+## be called journalism?
 
 ---
 
 <!-- .slide: data-background-iframe="https://theintercept.com/2019/08/04/whistleblowers-surveillance-fbi-trump/" -->
 
-Artigo de introdução ao tópico:
+Introductory article on the topic:
 https://theintercept.com/2019/08/04/whistleblowers-surveillance-fbi-trump/
 
-note:
-não haverá tempo para cobrir isto mas fica aqui à disposição da audiência
+---
 
+<!-- .slide: data-background-iframe="http://www.theguardian.com/uk-news/2015/jan/19/gchq-intercepted-emails-journalists-ny-times-bbc-guardian-le-monde-reuters-nbc-washington-post" -->
+
+# GCHQ captured emails of journalists
+[from top international media ](https://www.theguardian.com/uk-news/2015/jan/19/gchq-intercepted-emails-journalists-ny-times-bbc-guardian-le-monde-reuters-nbc-washington-post)
 
 --- ---
 
-# Segurança
-Informática
+# Computer
+Security
 
 note:
-segurança é algo contextual. Depende sempre do que se está a investigar e de quem poderá estar interessado em evitar essa publicação
+
+Security is hightly contextual. It always depends on what you are
+investigating, who might be interested in that and othe
+properties.
 
 ---
 
 # OPSEC
 
-Segurança Operacional
+Operational security
 
 ---
 
 # Assets
 
-O que queremos proteger
+What do we want to protect
 
 --- ---
 
-# O problema
+# The problem
 
 ---
 
@@ -131,68 +159,81 @@ O que queremos proteger
 <img src="images/macos-logo.png" style="width: 20%;"></img>
 <br></br>
 
- Desenhados para serem convenientes
+Designed to be convenient
  <!-- .element: class="fragment" -->  
  </br>
-**não para serem seguros**
+**but not for being secure**
  <!-- .element: class="fragment" --> 
 
 ---
 
 <img src="images/all-eggs-in-one-basket.png" ></img>
 
-#### Fazemos tudo no mesmo sistema
+#### We do everything in the same device
 
-documentos, emails, fotografias, etc.
+documents, emails, photos, etc.
 <!-- .element: class="fragment" --> 
 
+---
+
+Some of the 
+# Threats
 
 ---
 
-Quais os 
-# Riscos que corremos?
-
----
-
-# phishing
-Emails mailiciosos
+# Phishing
+Malicious emails
 
 ![](images/phishing-email.jpg)
 <!-- image source: https://www.googlewatchblog.de/2017/01/angriff-gmail-nutzer-neue/ -->
 
 note:
-Phishing é de longe o meio mais comum de ataque. Consiste no envio de emails mailiosos na esperaça que o destinatário
-clique num link ou que abra um ficheiro em anexo. Independentemente da quantidade de treino que uma organização faça,
-há sempre pelo menos 25% das pessoas que caem na armadilha.
+
+Phishing is by far the most common attack. It consists on sending
+malicious emails in the hopes that the target opens the
+attachments. Independently of the ammount of training, it seems that a
+minimum of 25% of the people on the organization end up on the trap if
+the email is convincing enough.
 
 ---
 
-# Ficheiros desconhecidos
+# Unknown files
 
 <span style="font-size: 600%">📄</span>
 <span style="font-size: 300%">👾</span>
 
+We get it: your job is in great part to open files<!-- .element: class="fragment" --> 
+
+but if there are safer ways of doing that<!-- .element: class="fragment" --> 
+
+
 ---
 
-# Navegar na net
+# Surf on the web
 <span style="font-size: 600%">🌐</span>
 
 note:
-Certos sites, por vezes até de fontes fidedignas, podem estar infetadas com conteúdo malicioso e que,
-sem que o utilizador suspeite, instalam malware no computador. Isso permite aos atacantes essencialmente
-fazer o que quiserem com ele: vasculhar documentos, ligar a webcam e tirar fotografias, etc.
+
+Certain websites, even from trusted source, can be infected with
+malicious contents that may install malware on your computer even
+without your action (esp. when you don't update your browser)
+
+Add networks may also deliver malware
+
+with that malicious parties may be able to search through your
+folders, turn on your webcam, log you key strokes, etc.
 
 ---
 
-# Roubo Físico
+# Physical theft
 
 <span style="font-size: 600%">🔫</span>
 
 ---
 
-# Sistema Operativo
+# Operating system
 
-Windows, por exemplo partilha muitos dados
+Windows, by default shares tons of stuff
 
 <img src="images/windows-logo.png" style="width: 30%"/></img>
 <span style="font-size: 300%">👾</span>
@@ -202,25 +243,31 @@ Windows, por exemplo partilha muitos dados
 
 <img src="images/qubes-logo.svg"></img>
 # Qubes OS
-como solução
+as a solution
 
 ---
 
-alternativa ao
-# Windows
+It's an alternative to
+# Windows or MacOS
 <br></br>
 
-mas também corre programas do windows
-
-(mais à frente)
+but may also run windows programs (more later on)
 
 ---
 
-# software livre
+# Free Software
+
+(as in freedom)
+
+note:
+
+Explain what it is and break the missconception that quality is
+correlated with price. Highlight the importance of transparency of the
+code for security auditability.
 
 ---
 
-# Recomendado
+# Recommended
 <br>
 
 <img src="images/snowden.jpg" height="200px" width="200px" style="float:left;"/>
@@ -232,13 +279,13 @@ OS available today. It's what I use, and free."
 
 ---
 
-# Único 
-em termos de segurança
+# Unique
+in terms of security
 
 ---
 
-Segurança por
-### Compartimentalização
+Security through
+### Compartimentalization
 
 <span style="font-size: 500%">💻 </span> <!-- .element: class="fragment" --> 
 <span style="font-size: 500%">💻 </span> <!-- .element: class="fragment" --> 
@@ -246,20 +293,21 @@ Segurança por
 
 ---
 
-# Domínios de Segurança
+# Security domains
 
 
-Tudo corre em máquinas virtuais
+It all runs in virtual machines
 
 note:
-**DEMO:** abrir dois qubes e mostrar os seus gestores de ficheiros
-para demostrar como estes mostra ficheiros diferentes de facto.
-  - chamar para a atençao o facto de cada qube ter a sua cor
+
+**DEMO:** open two AppVMs and show their file manager and prove that
+they are indeed different computers. Highlight the fact that each has
+their own border color and that no other machine can spoof that.
 
 ---
 
-organizado por
-# cores
+Organized by
+# colors
 <span style="font-size: 800%">🗃</span>
 
 📕 unsafe  &nbsp; 📘 work  &nbsp; 📙 safe
@@ -268,41 +316,53 @@ organizado por
 
 # 📕 unsafe
 
-Para navegar na net por qualquer site
+To browse untruested websites and do searches
 
 ---
 
 # 📘 work
 
-Contem todos os documentos de no nosso trabalho, emails, etc.
+Where we keep our work documents, emails, etc.
 
 ---
 
 # 📙 safe
 
-Onde armazenamos palavras-passe e outras credenciais
+Were we may keep passwords and other credentials in a password manager
+
+---
+
+# Choose your own
+
+These are just some examples
+
+<br>
+
+You can decide on your own compartimentalization<!-- .element: class="fragment" --> 
 
 ---
 
 # Demo
 
-Vamos ver isto em ação
+Let's see this in action
 
 note:
-mostrar aqui os vários tipos de máquinas em paralelo e chamar à atenção as cores.
-Mostrar também a funcionalidade de ter uma máquina offline com as credenciais
+
+show here various kinds of machines in parallel and again call out for
+the colors. Show also the functionality of having a "safe" (offline)
+VM
 
 --- ---
 
-# Isolamento
+# Isolation
 
-Cada máquina virtual (qube) 
+Each virtual machine(qube) 
 
-está isolada das outras
+is isolated from the others
 
 ---
 
-### 📁 Copiar ficheiros
+### 📁 Copying files
 
 <img src="images/copy-to-app-vm.png" style="width: 60%" />
 
@@ -310,77 +370,92 @@ está isolada das outras
 
 ![](images/usb-icon.svg)
 
-# Proteção USB
+# USB protection
 
-Temos controlo sobre que máquinas têm acesso a que dispositivos
+We have control over what mahcine has access to what
 
 ---
 
 # 📸 Webcam
 
-Nada tem acesso
+Nothing has access to it
 
-sem o darmos explicitamente
+unless you explicitly tell it to
 
 ---
 
-# 🎙Microfone
+# 🎙 Microfone
 
 idem.
 
 --- ---
 
-# Amnésia
+# Amnesiac
 <br>
 
-É o que nos permite estar seguros
+It's what allows us to become safe again
 <!-- .element: class="fragment" --> 
-mesmo que tenhamos sido hackeados
+even after we've been hacked
+<!-- .element: class="fragment" --> 
+
+notes:
+
+all of the documents are may have been copied, though. But
+compartimentalization helps mitigate that
+
+---
+
+# How ?
+
+---
+
+System only saves your documents (home folder)
+<!-- .element: class="fragment" --> 
+
+Uses a fresh copy of everything else once restarted
 <!-- .element: class="fragment" --> 
 
 ---
 
-# Como ?
+# Instaling software
+
+This may be a bit more tricky
+
+Has to be done in a machine called **template**
 
 ---
 
-Sistema apenas guarda documentos
-<!-- .element: class="fragment" --> 
-
-Usa uma cópia fresca assim que reiniciamos
-<!-- .element: class="fragment" --> 
-
----
-
-# Instalar programas
-
-tem que ser feito numa máquina **template**
-
----
-
-# 🗑 Máquinas Descartávies
+# 🗑 Disposable Machines
 
 ![](images/sketchy-attachment.png)
 
----
+notes:
 
-<span style="font-size: 600%">📄</span> 
-
-# Ver documentos 
-em Segurança
+explain what they are
 
 ---
 
 <span style="font-size: 600%">📄</span> 
 
-# Editar documentos 
-em Segurança
+# Read documents
+### safely
+
+---
+
+<span style="font-size: 600%">📄</span> 
+
+# Edit documents
+### safely
 
 ---
 
 # Windows
 
-Também é possível correr programas do windows
+We can also run window programs
+
+notes:
+
+but you'll find better alternatives to them soon enough
 
 ---
 
@@ -388,55 +463,65 @@ Também é possível correr programas do windows
 
 --- ---
 
-# 🔐 Disco Encriptado
+# 🔐 Full Disk Encryption
 <br></br>
 
-Só é possível ler os conteúdos armazenados
-no computador com uma frase-chave
+If the computer is powered off, only with
+you passphrase can the contents be read
 
 ---
 
-por comparação
-# em windows
+by contrast
+# on windows
 
 <img src="images/hdd.png" style="width: 40%"></img>
 <!-- image credit: https://www.stickpng.com/img/electronics/hard-drives/hard-drive-illustration -->
 
-todos os ficheiros pode ser lidos *by default*
+All files can be ready by anyone with access to your computer
 
 ---
 
-e quando
-# ativamos encriptação
+And even when we
+# activate full disk encryption
 
 ---
 
 <!-- .slide: data-background-image="images/windows-key.gif" --><!-- image credit: selma design in https://theintercept.com/2015/12/28/recently-bought-a-windows-computer-microsoft-probably-has-your-encryption-key/ -->
 
-#### a microsoft
-#  fica com uma cópia
+#### Microsoft
+#  keeps a copy
 
-fonte: [theintercept.com](https://theintercept.com/2015/12/28/recently-bought-a-windows-computer-microsoft-probably-has-your-encryption-key/)
+source: [theintercept.com](https://theintercept.com/2015/12/28/recently-bought-a-windows-computer-microsoft-probably-has-your-encryption-key/)
 
 --- ---
 
+# Anonymous browsing
 
-# Navegação Anónima
-
-Com a ajuda da rede **Tor**
+With the help of **Tor**
 
 <img src="images/internet.png"/>
 
 ---
 
-# Porquê?
-Para não revelar o que se está a investigar
+# Why?
+
+So you don't reveal what you are working on
+
+notes:
+
+  - can expose sources
+  - protects you on a public wifi
+  - can make another media take your story
 
 ---
 
-# Rede Tor
+# Tor Network
 
 ![](images/tor-diagram.svg)
+
+notes:
+
+quick explanation of what it does
 
 --- ---
 
@@ -452,8 +537,8 @@ Para não revelar o que se está a investigar
 
 ---
 
-# Objetivo
-Proteger fontes jornalísticas na era de vigilância de massas
+# Objective
+Protect sources in the era of mass surveillance
 
 ---
 
@@ -461,11 +546,13 @@ Proteger fontes jornalísticas na era de vigilância de massas
 
 ---
 
-Outro objetivo é também garantir a
-# segurança dos Jornalistas
+Another objective is also the
+# safety of journalists
 
 note:
-os ficheiros podem ser maliciosos
+
+- for example the files sent to the by fake sources can be actually
+  malicious actors
 
 ---
 
@@ -482,11 +569,11 @@ os ficheiros podem ser maliciosos
 
 <img src="images/securedrop-workstation2.png"/>
 
-<span style="color: white" > Em desenvolvimento desde Julho 2017 </span>
+<span style="color: white" > Soon to come. In development since July 2017 </span>
 
 --- ---
 
-# Notas Finais
+# Final Notes
 
 ---
 
@@ -494,41 +581,39 @@ os ficheiros podem ser maliciosos
 <img style="width: 60%;  z-index:51" src="images/sun-rays.png"/> <!-- .element: class="fragment" --> 
 
 note:
-Depois desta apresentação espero ter conseguido passar a imagem de que
-o QubesOS consegue dar um grau de segurança incomparavelmente superior
-mas...
+
+After this presentation we hope to have passed you the message that
+QubesOS can give you a higher security ground... but
 
 ---
 
 <!-- .slide: data-background-image="images/opened-boxes-header.png" -->
 
-nem tudo
-#  são rosas
+not all
+#  are roses
 <br>
 
-- requer formação <!-- .element: class="fragment" --> 
-<!--- segurança cria obstáculos à utilização <!-- .element: class="fragment" -->
-- computador moderno e potente <!-- .element: class="fragment" --> 
-- bateria dura pouco  <!-- .element: class="fragment" --> 
+- requires some training <!-- .element: class="fragment" --> 
+- relatively modern a beefy computer <!-- .element: class="fragment" --> 
+- lower battery life  <!-- .element: class="fragment" --> 
 
 ---
 
-É preciso
-# medir os riscos
+One has to assess
+# the risks
 <br></br>
 
-- proteção de fontes <!-- .element: class="fragment" --> 
-- manipulação segura de ficheiros <!-- .element: class="fragment" --> 
-- segurança do(a) jornalista <!-- .element: class="fragment" --> 
+- source protection <!-- .element: class="fragment" --> 
+- safely opening documents <!-- .element: class="fragment" --> 
+- safetly of the jorunalist <!-- .element: class="fragment" --> 
 
 ---
 
-muito
-# Obrigado
+# Thank you
 
 ---
 
-# Comunidade
+# Community
 
 <img src="images/forum-screenshot.png" style="width: 80%"></img>
 
@@ -536,9 +621,16 @@ cafe.privacylx.org
 
 --- ---
 
-# mais recursos
+# more resources
 
 * [Qubes Website](https://qubes-os.org)
+
+* [A Guide to Protecting Your Privacy for Journalists, Sources, and Everyone Else](https://github.com/freedomofpress/encryption-works/blob/master/encryption_works.md)
+
+* [Investigating the Computer Security Practices
+and Needs of Journalists](https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-mcgregor.pdf)
+
+---
 
 --- ---
 
@@ -552,28 +644,50 @@ cafe.privacylx.org
 # 📋 Clipboard
 
 
-copiar `ctrl-c`
+copy `ctrl-c`
 
-copiar partilhado: `ctrl-shift-c`
+shared clipboard copy: `ctrl-shift-c`
 <!-- .element: class="fragment" --> 
 
-colar partilhado: `ctrl-shift-v`
+shared clipboard past: `ctrl-shift-v`
 <!-- .element: class="fragment" --> 
 
-colar `ctrl-v`
+paste `ctrl-v`
 
 ---
 
-- **Fontes Jornalísticas**
+- **Journalistic sources**
 <!-- .element: class="fragment" -->
-- documentos de investigações atuais
+- documents of current investigations
 <!-- .element: class="fragment" -->
-- e passadas
+- and past ones
 <!-- .element: class="fragment" -->
 
 <br></br>
 
-- comunicações sensíveis
+- sensitive communications
 <!-- .element: class="fragment" -->
-- contas online
+- online accounts
 <!-- .element: class="fragment" -->
+
+--- ---
+
+#### State-of-the-art 
+# journalist security
+
+---
+
+#### Study case
+# The Intercept
+
+![](images/intercept-logo.jpg)
+
+---
+
+![](images/micah.jpg)
+
+* [Meet the Man Hired to Make Sure the Snowden Docs Aren't Hacked](https://mashable.com/2014/05/27/micah-lee-greenwald-snowden/?europe=true)
+
+---
+
+> Lee’s position is rare in the media world. But in the age of secret-spilling and the government clampdown on reporters' sources, news organizations are aiming to strengthen their digital savvy with hires like him.

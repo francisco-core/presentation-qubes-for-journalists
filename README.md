@@ -1,7 +1,7 @@
 # QubesOS
 
 -----
-<center>A gentle introduction to QubesOS for investigative Journalists (in Portuguese)</center>
+<center>A gentle introduction to QubesOS for investigative Journalists</center>
 
 ----
 
@@ -13,11 +13,11 @@ License [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
 
 
 
-Apresentação
+About the presentation
 -------------------
 
-A apresentação tem como público alvo joranlistas de investigação. E como objetivo a promoção da segurança informática na atividade jornalística.
+The presentation has a target audience investigative journalists and
+has as objective the promotion of digital security among journalist
+professionals.
 
-
-
-Feito no contexto do grupo [privacyLx](https://privacylx.org).
+Made in the context of [privacyLx](https://privacylx.org).
